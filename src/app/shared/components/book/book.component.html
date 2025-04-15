@@ -1,14 +1,14 @@
 <section>
   <button (click)="toggleFavorite()">
-    <span>{{ books.favorite ? '\u2764' : '\u2661'}}</span>
+    <span>{{ book().favorite ? '\u2764' : '\u2661'}}</span>
   </button>
 
   <picture>
-    <img [src]="books.img.url" [alt]="books.img.alt">
+    <img [src]="book().img.url" [alt]="book().img.alt">
   </picture>
 
   <div>
-    <h2>{{ books.title }}</h2>
-    <h3>{{ books.author }}</h3>
+    <h2>{{ book().title }}</h2>
+    <h3>{{ book().author }}</h3>
   </div>
 </section>
