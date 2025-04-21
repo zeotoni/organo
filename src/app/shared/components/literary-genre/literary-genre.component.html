@@ -1,1 +1,17 @@
-<app-book [book]="book"/>
+<section>
+  <h3>{{genre().value}}</h3>
+  <span></span>
+
+  @if(!genre().books.length) {
+    <div class="no-books">
+      <img src="sem-livros.png" alt="Sem livros deste gênero">
+      <p>Não há livros neste gênero ainda</p>
+    </div>
+  }
+
+  <div>
+    @for (book of genre().books; track book) {
+      <app-book [book]="book"/>
+    }
+  </div>
+</section>
