@@ -1,6 +1,7 @@
-<section>
-  <h3>{{genre().value}}</h3>
-  <span></span>
+<section [ngClass]="genre().id">
+  <h3>{{genre().value}}
+    <span [ngClass]="genre().id"></span>
+  </h3>
 
   @if(!genre().books.length) {
     <div class="no-books">

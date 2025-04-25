@@ -10,7 +10,28 @@ section {
   position: relative;
   overflow: hidden;
   padding-top: 16px;
+  border-top: 24px solid;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  &.romance {
+    border-color: #82CFFA;
+  }
+
+  &.misterio {
+    border-color: #A6D157;
+  }
+
+  &.fantasia {
+    border-color: #E06B69;
+  }
+
+  &.ficcao-cientifica {
+    border-color: #DB6EBF;
+  }
+
+  &.tecnicos {
+    border-color: #FF8A29;
+  }
 
   & picture {
     margin-top: 32px;

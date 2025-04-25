@@ -16,6 +16,26 @@ section {
     display: block;
     margin: 0 auto;
     border-bottom: 4px solid var(--color-primaria);
+
+    &.romance {
+      border-bottom: 4px solid #82CFFA;
+    }
+
+    &.misterio {
+      border-bottom: 4px solid #A6D157;
+    }
+
+    &.fantasia {
+      border-bottom: 4px solid #E06B69;
+    }
+
+    &.ficcao-cientifica {
+      border-bottom: 4px solid #DB6EBF;
+    }
+
+    &.tecnicos {
+      border-bottom: 4px solid #FF8A29;
+    }
   }
 
   .no-books img {
@@ -41,5 +61,25 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
+  }
+
+  &.romance {
+    background-color: #E8FFFF;
+  }
+
+  &.misterio {
+    background-color: #E9FFE3;
+  }
+
+  &.ficcao-cientifica {
+    background-color: #FFF0FA;
+  }
+
+  &.fantasia {
+    background-color: #FFE3E3;
+  }
+
+  &.tecnicos {
+    background-color: #FFF1E4;
   }
 }
