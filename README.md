@@ -1,6 +1,6 @@
 # 📚 Angular 19: Estrutura de Componentes com Signals e Controle de Fluxo
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
   <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
@@ -11,6 +11,8 @@
 | :sparkles: Nome        | **Projeto Organo**
 | :label: Tecnologias | Angular, TypeScript, Scss
 :fire: Desafio	
+
+![Captura de tela de 2025-04-25 21-39-52](https://github.com/user-attachments/assets/380e2aea-3b30-4eff-b238-388a232f3c1c#vitrinedev)
 
 
 Este projeto foi desenvolvido como parte do curso da Alura **"Angular 19: estruture componentes com signals e controle de fluxo"**. O objetivo foi aplicar os recursos mais recentes da framework Angular em um projeto focado na construção e organização de componentes reutilizáveis.
