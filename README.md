@@ -1,59 +1,90 @@
-# Organo
+# 📚 Angular 19: Estrutura de Componentes com Signals e Controle de Fluxo
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.3.
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
+  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+</p>
 
-## Development server
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Projeto Organo**
+| :label: Tecnologias | Angular, TypeScript, Scss
+:fire: Desafio	
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
+Este projeto foi desenvolvido como parte do curso da Alura **"Angular 19: estruture componentes com signals e controle de fluxo"**. O objetivo foi aplicar os recursos mais recentes da framework Angular em um projeto focado na construção e organização de componentes reutilizáveis.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🎯 Objetivo
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+A proposta envolveu a criação de uma aplicação Angular com foco nas boas práticas de estruturação de componentes e na utilização de novos recursos do Angular 19, como:
 
-```bash
-ng generate component component-name
-```
+- Criação de componentes semânticos e organizados;
+- Implementação de lógica de marcação usando **Signals**;
+- Uso do **novo Control Flow Syntax** com `@if` e `@for`;
+- Aplicação de **estilização condicional** com `ngClass`;
+- Comunicação entre componentes por meio de **property binding** e **event binding**.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🛠️ Tecnologias Utilizadas
 
-## Building
+- **Angular 19** (CLI, componentes, módulos)
+- **TypeScript**
+- **SCSS**
+- **HTML semântico**
+- **Signals**
+- **Angular Control Flow (@if, @for)**
+- **ngClass para estilos dinâmicos**
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🧱 Estrutura do Projeto
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+A aplicação foi construída com base em uma estrutura de componentes reutilizáveis:
 
-## Running unit tests
+Cada componente possui sua lógica, template e estilo próprios, organizados em pastas individuais.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 🧪 Funcionalidades Implementadas
 
-## Running end-to-end tests
+- Visualização de livros organizados por gênero;
+- Favoritar e desfavoritar livros com **event binding**;
+- Exibição condicional de estilos com base no gênero do livro;
+- Utilização de **Signals** para controle de estado;
+- Renderização condicional e iterativa usando `@if` e `@for`.
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## 📝 Observações
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- Este projeto **não tem foco em mobile first** ou deploy;
+- Seu propósito é exclusivamente **didático**, servindo como base para explorar as **novas funcionalidades do Angular**.
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 👨‍🏫 Curso
+
+Projeto desenvolvido durante o curso da [Alura](https://www.alura.com.br):
+
+- **Curso**: *Angular 19: estruture componentes com signals e controle de fluxo*
+- **Instrutora**: [nayannelbatista](https://github.com/nayannelbatista)
+
+---
+
+## 📬 Contato
+
+Se quiser trocar uma ideia sobre Angular ou projetos web:
+
+- **Nome**: Ezequiel Otoni  
+- **Email**: ezequiel.zeotoni@gmail.com  
+- **LinkedIn**: [Ezequiel Otoni](https://www.linkedin.com/in/zeotoni)
+
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE). Veja o arquivo `LICENSE` para mais detalhes.
